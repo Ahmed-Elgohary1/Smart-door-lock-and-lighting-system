@@ -54,6 +54,7 @@ int option;
    scanf("%d",&option);
    if(option==1)
    {
+   printf("Enter your password: ");
    scanf("%s",temp);  // read password 
     flag=CheckPassword(user+ApartmentNumber-1,temp);   
    }
