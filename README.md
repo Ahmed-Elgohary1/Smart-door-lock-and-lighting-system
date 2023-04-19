@@ -17,10 +17,8 @@ To use the password validation and recommendation tool, simply clone the reposit
 
 ## Usage
 
-To use the tool, simply call the IsValid() function and pass in the chosen password as a parameter. The function will return a boolean value indicating whether the password is valid or not. If the password is weak, the function will also recommend a strong password that meets the required strength criteria.
-
-from password_tool import validate_password
-
+To use the tool, simply call the *IsValid()* function and pass in the chosen password as a parameter. The function will return a boolean value indicating whether the password is valid or not. If the password is weak, the function will also recommend a strong password that meets the required strength criteria.
+```
 password = "myweakpassword"
 is_valid = IsValid(password)
 
@@ -29,7 +27,7 @@ if not is_valid:
 else:
     printf("Your password is strong. Good job!");
 
-
+```
 ## Contributing
 
 Contributions to the password validation and recommendation tool are welcome and encouraged. To contribute, simply fork the repository, make your changes, and submit a pull request. All contributions must adhere to the repository's code of conduct and contribution guidelines.
